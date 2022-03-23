@@ -21,12 +21,15 @@ body {
 }
 
 .cabecalho {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100px;
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: space-around;
   align-items: center;
   box-shadow: 1px 3px 5px var(--cor-sombra);
-  padding: 13px 0;
 }
 
 .logo-imagem {
@@ -58,10 +61,9 @@ body {
   flex-direction: column;
   width: 80%;
   height: 50%;
-  margin-top: 100px;
+  margin-top: 240px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 0;
   max-width: 400px;
   background-color: var(--cor-container);
   box-shadow: 3px 6px 5px var(--cor-sombra);
@@ -108,4 +110,18 @@ body {
 
 .botao:hover {
   background-color: var(--cor-link-foco);
+}
+
+.rodape {
+  color: gray;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 0 30px 20px 0;
+  box-shadow: -1px -3px 5px var(--cor-sombra);
 }
